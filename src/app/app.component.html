@@ -1,0 +1,9 @@
+<p>Ejercicio 1</p>
+<label>Edad uno:</label><br>
+<input type="text" [(ngModel)]="edadUno" name="edadUno"><br>
+<label>Edad dos:</label><br>
+<input type="text" [(ngModel)]="edadDos" name="edadDos"><br>
+<button (click)="calcular()">Calcular promedio</button>
+<br>Promedio: {{promedio}}
+<br>Suma: {{suma}}
+<br><button (click)="limpiar()">Limpiar cuadros de texto</button><br>
